@@ -1,0 +1,11 @@
+.product_container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 30px auto;
+
+    .buttons {
+        width: 150px;
+        display: flex;
+        justify-content: space-between;  
+    }
+}

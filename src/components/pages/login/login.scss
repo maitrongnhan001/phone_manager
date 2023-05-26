@@ -1,0 +1,92 @@
+.background_login {
+  background-image: url("./background/background_login.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+  .login_container {
+    height: 100vh;
+    background-color: #fff;
+    width: 500px;
+    margin-left: auto;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .app_header {
+      position: absolute;
+      color: #286d36;
+      font-size: 23px;
+      top: 1rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .login_header {
+      width: 90%;
+
+      .header {
+        text-align: center;
+        word-spacing: 5px;
+      }
+    }
+
+    .login_wrapper {
+      width: 90%;
+
+      .input_login {
+        width: 100%;
+      }
+
+      .submit_login_form_button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 500px) {
+  .background_login {
+    .login_container {
+      opacity: 1;
+
+      .app_header {
+        position: absolute;
+        color: #286d36;
+        font-size: 19px;
+        bottom: 44rem;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .login_header {
+        width: 90%;
+
+        .header {
+          text-align: center;
+          word-spacing: 5px;
+        }
+      }
+
+      .login_wrapper {
+        width: 90%;
+
+        .input_login {
+          width: 100%;
+        }
+
+        .submit_login_form_button {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+}
